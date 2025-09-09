@@ -131,8 +131,8 @@ flex-grow: 1;
   font-family: 'Playfair Display', serif;
   font-size: 3rem;
   font-weight: bold;
-  color:rgb(255, 112, 112);
-  text-shadow: 1px 1px 3px rgba(148, 89, 89, 0.897);
+  color:rgb(202, 116, 116);
+  text-shadow: 1px 1px 3px rgba(130, 130, 130, 0.897);
 }
 .swiper-slide .card {
   transform: scale(0.9); /* riduce del 10% */
@@ -180,7 +180,6 @@ margin-top: 5px;
   background-color: #5a5050;
   color: #ffffff;
 }
-
 .home-footer{
    color: rgba(255, 252, 252, 0.95);
   text-shadow: 0 1px 14px rgba(0, 0, 0, 0.884); 

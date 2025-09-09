@@ -20,7 +20,7 @@
   text-align: center;
 }
 .jumbo{
-  background-image: url("jumboBlog.jpg");
+  background-image: url("/public/jumboBlog.jpg");
   background-size: cover;
 }
 .logo{
