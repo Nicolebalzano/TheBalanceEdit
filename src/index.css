@@ -152,7 +152,7 @@ align-items: center;
 }
 .swiper-button-next,
 .swiper-button-prev {
-  color: #e4c8b6 !important; 
+  color: rgb(202, 116, 116)!important; 
 }
 .btn-articoli{
  margin-top: 20px;

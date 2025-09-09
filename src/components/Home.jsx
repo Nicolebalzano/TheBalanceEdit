@@ -75,7 +75,7 @@ const Home = () => {
       </div><hr /><hr /> <hr />
       <section className="bg-articles" ref={articoliRef}> 
       <div className="container-fluid">
-        <h3 className="articoli m-3 text-center">YOU MIGHT BE INTERESTED</h3>
+        <h3 className="articoli text-center">YOU MIGHT BE INTERESTED</h3>
    <Swiper
     modules={[Navigation, Pagination]}
     spaceBetween={0}
