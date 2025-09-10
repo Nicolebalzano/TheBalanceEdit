@@ -22,12 +22,12 @@ const LifeStyle = () => {
     "contenuto": "Un approfondimento per studenti di livello A1/A2 su come evitare gli errori più comuni con gli articoli."
   },
   {
-    "immagine": "/img.jpg",
+    "immagine": "/img4.jpg",
     "titolo": "Gli articoli determinativi",
     "contenuto": "Spiegazione dettagliata e esempi pratici per padroneggiare gli articoli determinativi in italiano."
   },
   {
-    "immagine": "/img.jpg",    "titolo": "Usi e forme degli articoli",
+    "immagine": "/img5.jpg",    "titolo": "Usi e forme degli articoli",
     "contenuto": "Una panoramica completa sugli articoli determinativi e indeterminativi, con focus su grammatica e sintassi."
   },
   {

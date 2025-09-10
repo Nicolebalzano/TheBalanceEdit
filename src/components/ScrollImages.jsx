@@ -2,18 +2,18 @@ import{ useEffect, useState, useRef } from 'react';
 
 
 const images = [
-  '/public/img1.jpg',
-  '/public/img2.jpg',
-  '/public/img3.jpg',
-  '/public/img4.jpg',
-    '/public/img5.jpg',
-      '/public/img6.jpg',
-        '/public/img7.jpg',
-          '/public/img8.jpg',
-            '/public/img9.jpg', 
-             '/public/img10.jpg',
-               '/public/img11.jpg',
-                 '/public/img12.jpg'
+  '/img1.jpg',
+  '/img2.jpg',
+  '/img3.jpg',
+  '/img4.jpg',
+    '/img5.jpg',
+      '/img6.jpg',
+        '/img7.jpg',
+          '/img8.jpg',
+            '/img9.jpg', 
+             '/img10.jpg',
+               '/img11.jpg',
+                 '/img12.jpg'
 ];
 
 function ScrollImages() {
