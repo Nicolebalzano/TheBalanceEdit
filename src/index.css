@@ -76,27 +76,80 @@ content: "";
   z-index: -1;
 }
 
-/* hr{
-  border: 1.5px solid #df6969;
-  height: 15px;
-  background-color: #df6969;
-} */
-.articles-preview-section{
-  background-image: url('/public/bg-aesthetic.jpg');
-  height: 100vh;
-  display: flex;
-   align-items: center;
-  justify-content: center;
+/* sezione ad apparizione e box */
+.box-intermedio{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    height: 80vh;
+    width: 90vw;
+    background-image: url('/public/bg-box.jpg');
+    background-size: cover;
 }
+.box-title{
+  padding: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+  color: white;
+    text-shadow: 0 1px 14px rgba(0, 0, 0, 0.884); 
+}
+.image-box {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.fade-image {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0;
+  transform: scale(0.2);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  border-radius: 500px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.fade-image.visible {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+  .scroll-image {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .image-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+/* fine sezione apparizione */
+
 .card {
   padding: 16px;
-  border-radius: 50px;
+  border-radius: 20px;
   margin: auto;
   width: 300px;
-  height: 450px;
+  height: 470px;
+  background-color: #dc75753d;
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 1px 3px rgba(80, 80, 80, 0.623);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.623);
 }
 .card:hover{
   transform: scale(1.03);
@@ -110,37 +163,32 @@ content: "";
 .card-content{
 flex-grow: 1;
 }
-.bg-articles{
-     position: relative;
-  z-index: 1;
-  padding: 2rem;
-  overflow: hidden;
-}
-.bg-articles::before{
-    content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background-image: url('/public/bg-aesthetic.jpg');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.4;
-  z-index: -1;
-}
 .articoli{
   font-family: 'Playfair Display', serif;
   font-size: 3rem;
+  margin-top: 50px;
+    margin-bottom: 20px;
   font-weight: bold;
   color:rgb(202, 116, 116);
   text-shadow: 1px 1px 3px rgba(130, 130, 130, 0.897);
+}
+.bg-articles{
+    background-color:rgba(202, 116, 116, 0.098) ;
+      box-shadow: 1px 15px 13px rgba(130, 130, 130, 0.897);
+      
 }
 .swiper-slide .card {
   transform: scale(0.9); /* riduce del 10% */
   transform-origin: center;
 }
-.card-img {
-width: 100%;
+.card-image {
+  width: 100%;
+  height: 50%;
+  object-fit: cover; /* oppure 'contain' se vuoi vedere tutta l'immagine */
+  border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.884); 
 }
+
 .lista-articoli {
   display: flex;
 justify-content: center;
@@ -167,11 +215,14 @@ align-items: center;
   transition: background-color 0.3s ease;
 }
 .btn-card{
-border: 1px solid black;
+border: 1px solid rgba(46, 35, 35, 0.304);
   text-decoration: none;
 padding: 10px 40px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 border-radius: 50px;
-color: #000000;
+color: #5b5454;
+background-color: #faf2f2;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.582); 
 display: flex;
 justify-content: center;
 margin-top: 5px;
