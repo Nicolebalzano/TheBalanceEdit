@@ -4,7 +4,7 @@ const Header = () => {
          <>
     <nav className="navbar header navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-          <Link to='/' className='navbar-brand'> <img src="logo.png" alt="logo" className="logo" /></Link>
+          <Link to='/' className='navbar-brand'> <img src="/logo.png" alt="logo" className="logo" /></Link>
         <button
           className="navbar-toggler"
           type="button"

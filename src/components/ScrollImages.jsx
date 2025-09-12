@@ -50,7 +50,7 @@ function ScrollImages() {
           key={i}
           src={src}
           alt={`Immagine ${i + 1}`}
-          className={`fade-image ${currentIndex === i ? 'visible' : ''}`}
+          className={`fade-image ${currentIndex === i ? 'visible' : ''} scroll-image`}
         />
       ))}
     </div>
