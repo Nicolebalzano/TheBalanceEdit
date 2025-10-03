@@ -143,15 +143,14 @@ content: "";
 }
 
 
-/* fine sezione apparizione */
+/* fine sezione apparizione  #dc75753d;*/
 
 .card {
   padding: 16px;
-  border-radius: 20px;
   margin: auto;
   width: 300px;
   height: 470px;
-  background-color: #dc75753d;
+  background-color: #bc70703d;
   display: flex;
   flex-direction: column;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.623);
@@ -174,8 +173,8 @@ flex-grow: 1;
   margin-top: 50px;
     margin-bottom: 20px;
   font-weight: bold;
-  color:rgb(202, 116, 116);
-  text-shadow: 1px 1px 3px rgba(130, 130, 130, 0.897);
+  color:rgb(134, 64, 64);
+  text-shadow: 1px 1px 3px rgba(164, 53, 53, 0.897);
 }
 .bg-articles{
     background-color:rgba(202, 116, 116, 0.098) ;
