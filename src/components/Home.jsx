@@ -81,6 +81,7 @@ const Home = () => {
           </Swiper>
         </div>
       </section>
+      
     </>
   );
 };

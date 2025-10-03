@@ -1,5 +1,14 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Collapse } from 'bootstrap';
 const Header = () => {
+  const location = useLocation();
+  useEffect(() => {
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+    if (navbarCollapse && navbarCollapse.classList.contains('show')) {
+      new Collapse(navbarCollapse).hide();
+    }
+  }, [location.pathname]);
     return (
          <>
     <nav className="navbar header navbar-expand-lg bg-body-tertiary">
@@ -21,40 +30,28 @@ const Header = () => {
           <ul className="navbar-nav">
             {/* dropdown items */}
             <li className="nav-item dropdown">
-              <a
-              className="nav-link "
-                href="#"
-                  role="button"
-              >
-                 <Link to='/self-care' className='header-links'>Self-care</Link>
-              </a>
+             
+                 <Link to='/self-care' className='header-links nav-link'>Self-care</Link>
+            
             </li>
            {/* separation */}
             <li className="nav-item ">
-              <a
-                className="nav-link "
-                href="#"
-                  role="button"
-
-              >
-                  <Link to='/life-style' className='header-links'>Life-style</Link>
-              </a>
+        
+                  <Link to='/life-style' className='header-links nav-link'>Life-style</Link>
+             
             </li>
             {/* separation */}
             <li className="nav-item ">
-              <a
-                className="nav-link"
-                href="#"
-                role="button"
-              >
-                  <Link to='/self-improvment' className='header-links'>Self-improvment</Link>
-              </a>
-          
+             
+                  <Link to='/self-improvment' className='header-links nav-link'>Self-improvment</Link>
+              
             </li>
           </ul>
         </div>
       </div>
+      
     </nav>
+    
   </>
     )
  
