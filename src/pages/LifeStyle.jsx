@@ -15,7 +15,7 @@ return <>
           Go to the articles ↓
         </button>
 </div><hr /><hr />
- <section ref={articoliRef} className="pt-5 text-center bg-articles mx-3"> 
+ <section ref={articoliRef} className="pt-5 text-center mx-3"> 
     <h2 className="articoli">READ ABOUT LIFE STYLE</h2>
     <div className="d-flex flex-wrap  justify-content-center">
  {ArticoliLifeStyle.map((articolo, index) => (
