@@ -231,6 +231,9 @@ a {
 }
 /* Responsive */
 @media (max-width: 600px) {
+  .header{
+    height: 83px;
+  }
   .scroll-image {
     width: 70%;
     max-width: 300px;
