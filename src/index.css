@@ -173,6 +173,7 @@ a {
   overflow: hidden;
 }
 .bg-interactive-box {
+
   position: relative;
   padding: 200px;
   z-index: 0;
@@ -239,6 +240,24 @@ a {
     flex-direction: column;
     align-items: center;
   }
+  .bg-interactive-box {
+    padding: 30px;
+    padding-top: 100px;
+    height: 90vh;
+  }
+
+  .box-intermedio {
+    width: 50vw;
+    height: 70vh;
+    padding: 30px;
+    margin: 0 auto; 
+  }
+
+  .bg-interactive-box::before,
+  .bg-interactive-box::after {
+    top: 0;
+    left: 0;
+  }
 }
 
 /* fine sezione apparizione  #dc75753d;*/
@@ -274,7 +293,7 @@ a {
   color: rgb(134, 64, 64);
   text-shadow: 1px 1px 3px rgba(164, 53, 53, 0.897);
 }
-.bg-articles{
+.bg-articles {
   height: 98vh;
 }
 .swiper-slide .card {
