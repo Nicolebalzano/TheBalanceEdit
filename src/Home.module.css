@@ -1,34 +1,31 @@
-.jumbo{
-  height: 90vh;
+.jumbo {
+  height: 95vh;
   display: flex;
-  flex-direction: column; 
-  align-items: center;     
-  justify-content: center; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 2rem
+  padding: 10px;
 }
-.jumbo-title{
-  color: rgba(255, 252, 252, 0.95);
-  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.884); 
-  font-size: 3rem;
-   text-align: center;
-    font-family: 'Playfair Display', serif;
+.jumbo-title {
+color: #ffffff;
+text-shadow: 0 0 10px rgba(65, 62, 64, 0.769);
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "Playfair Display", serif;
   display: flex;
-  justify-content: center; 
-  align-items: center;    
-  height: 80vh;          
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
   text-align: center;
 }
-.jumbo{
-  background-image: url("/public/jumboBlog.jpg");
+.jumbo {
+  background-image: url("/public/bg-box.jpg");
   background-size: cover;
 }
-.logo{
+.logo {
   height: 65px;
-  border-radius: 40px 40px 30px 0;
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.267);
-   position: absolute;
+  position: absolute;
   left: 320px;
   bottom: 230px;
 }
-

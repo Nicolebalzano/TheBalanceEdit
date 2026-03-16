@@ -30,15 +30,7 @@ const Home = () => {
         <button onClick={scrollToArticoli} className="btn-articoli">
           Go to the articles ↓
         </button>
-      </div>
-      <hr />
-      <section className="box-intermedio container">
-        <div className="d-flex justify-content-center row">
-          <h3 className="box-title">INSPIRATION IS EVERYWHERE</h3>
-          <ScrollImages />
-        </div>
-      </section>
-      <hr />
+      </div>  
       <section className="bg-articles" ref={articoliRef}>
         <div className="container">
           <h3 className="articoli text-center">YOU MIGHT BE INTERESTED</h3>
@@ -81,7 +73,14 @@ const Home = () => {
           </Swiper>
         </div>
       </section>
-      
+      <section className="bg-interactive-box">
+      <div className="box-intermedio container">
+        <div className="d-flex justify-content-center row">
+          <h3 className="box-title">Find your inspiration here</h3>
+          <ScrollImages />
+        </div>
+      </div></section>
+    
     </>
   );
 };
