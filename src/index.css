@@ -154,10 +154,10 @@ a {
 }
 
 .box-title {
-  color: #f1dfdf;              /* interno bianco */
+  color: #f1dfdf;             
   font-weight: 700;
   font-size: 2.5rem;
-  -webkit-text-stroke: 1px #8d3f3f; /* bordo nero */
+  -webkit-text-stroke: 1px #8d3f3f; 
 }
 
 .image-box {
@@ -222,7 +222,7 @@ a {
 }
 
 .scroll-image {
-  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.39);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.15);
 }
 /* Responsive */
 @media (max-width: 600px) {
@@ -292,7 +292,6 @@ a {
   text-shadow: 1px 1px 3px rgba(164, 53, 53, 0.897);
 }
 .bg-articles {
-  height: 98vh;
   margin-bottom: 100px;
 }
 .swiper-slide .card {
@@ -345,16 +344,16 @@ a {
   padding: 10px 40px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 50px;
-  color: #5b5454;
-  background-color: #faf2f2;
+  background-color: #5c4350c7;
+  color: #ffffff;
   box-shadow: 0 4px 3px rgba(0, 0, 0, 0.582);
   display: flex;
   justify-content: center;
   margin-top: 5px;
 }
 .btn-card:hover {
-  background-color: #5a5050;
-  color: #ffffff;
+  color: #5b5454;
+  background-color: #faf2f2;
 }
 .home-footer {
   color: rgba(255, 252, 252, 0.95);
@@ -476,5 +475,7 @@ footer a:hover {
   }
   .box-title{
     font-size: 2rem;
+        color:#ffffff ;
+      -webkit-text-stroke: 1px #8a517d;
   }
 }
