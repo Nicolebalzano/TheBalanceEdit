@@ -105,16 +105,10 @@ a {
   padding: 20px;
   height: 70vh;
   text-align: center;
-  background: linear-gradient(
-    135deg,
-    #eca4be 0%,
-    #b882e8 25%,
-    #7fb4df 55%,
-    #eece8a 85%
-  );
+  background-color: rgb(241, 231, 231);
   border-radius: 50px;
   width: 40vw;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.594);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.594);
   animation: breathe 5s ease-in-out infinite;
 }
 
@@ -158,12 +152,14 @@ a {
     transform: scale(1);
   }
 }
+
 .box-title {
-  color: #f4ecef; /* malva scuro elegante */
+  color: #f1dfdf;              /* interno bianco */
   font-weight: 700;
-  text-shadow: 0 1px 50px rgb(0, 0, 0);
-  font-size: 2rem;
+  font-size: 2.5rem;
+  -webkit-text-stroke: 1px #8d3f3f; /* bordo nero */
 }
+
 .image-box {
   position: relative;
   min-height: 70vh;
@@ -476,5 +472,9 @@ footer a:hover {
   .box-intermedio {
     width: 85vw;
     height: 80;
+    background-color: rgba(231, 202, 207, 0.57);
+  }
+  .box-title{
+    font-size: 2rem;
   }
 }
